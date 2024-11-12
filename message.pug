@@ -1,0 +1,20 @@
+.message
+    img.avatar(src="https://picsum.photos/64")
+    .info
+        .head
+            a.name(href="google.com") Katsubo Alex
+            .time 20 april 20244444
+        .content.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sequi. Nisi vel maiores consequuntur ab nesciunt similique? Quod amet provident totam tempora!
+    - fetch("https://jsonplaceholder.typicode.com/users")
+
+     .then(response => {
+    // Response handling
+  })
+     .then(data => {
+    console.log("data-", data)
+    // Data handling
+  })
+     .catch(error => {
+       // Error handling
+      });
